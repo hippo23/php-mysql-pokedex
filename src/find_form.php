@@ -93,10 +93,12 @@
       <option>Fairy</option>
     </select>
   </div>
-  <div class='flex items-center justify-around'>
-    <input type='submit' value='Search' name='submit' class="cursor-pointer bg-white text-black font-normal font-bold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline" type="button">
+  <div class='pt-6 flex items-center justify-around'>
+    <input type='submit' value='Search' name='submit' class="cursor-pointer bg-inherit text-white border border-solid border-white border-2 font-normal font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
     </input>
-    <input type='reset' value='Clear' name='clear' class="cursor-pointer bg-white text-black font-normal font-bold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline" type="button">
+    <input type='submit' value='Delete' name='submit_delete' class="cursor-pointer bg-inherit text-white border border-solid border-white border-2 font-normal font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+    </input>
+    <input type='reset' value='Clear' name='clear' class="cursor-pointer bg-inherit text-white border border-solid border-white border-2 font-normal font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
     </input>
   </div>
 </form>
