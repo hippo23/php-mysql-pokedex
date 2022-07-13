@@ -145,7 +145,7 @@
     $query .= ' ' . $_SESSION['update_data'];
     echo $query;
 
-    if ($query != 'UPDATE Pokemons SET ') {
+    if ($query != 'UPDATE Pokemons SET ' && $_SESSION['update_data'] != '') {
       if (!mysqli_query($conn, $query)) {
         echo 'There is no matching pokemon in the database.';
       }
