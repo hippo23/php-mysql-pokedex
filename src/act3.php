@@ -2,7 +2,7 @@
 <?php include './database.php'; ?>
 
 <!DOCTYPE HTML>
-<html class='h-auto w-full bg-white'>
+<html class='h-auto w-full bg-black'>
 
 <head>
   <meta charset="UTF-8">
