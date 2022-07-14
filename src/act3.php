@@ -19,7 +19,7 @@
   <div class='w-full h-screen h-screen flex lg:flex-row flex-col items-center justify-around bg-white'>
     <?php include './masthead.php'; ?>
   </div>
-  <div class='z-30 w-full h-[80vh] flex lg:flex-row flex-col items-center justify-center bg-black min-w-full pt-6 pb-6'>
+  <div class='z-30 w-full h-auto min-h-[80vh] flex lg:flex-row flex-col items-center justify-center bg-black min-w-full pt-6 pb-6'>
     <div class='font-bold text-white w-3/6 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] p-12 text-center justify-center flex-col'>
       <h1 class='mb-6 text-4xl xl:text-5xl'>
         <span class='underline-offset-8 decoration-1 underline'>Interact</span> with the pokedex database.
