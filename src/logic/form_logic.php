@@ -136,6 +136,7 @@
       }
     }
 
+
     $query = "UPDATE Pokemons SET ";
 
     if (count($conditions) > 0) {
@@ -143,15 +144,13 @@
     }
 
     $query .= ' ' . $_SESSION['update_data'];
-    echo $query;
 
     if ($query != 'UPDATE Pokemons SET ' && $_SESSION['update_data'] != '') {
       if (!mysqli_query($conn, $query)) {
         echo 'There is no matching pokemon in the database.';
       }
+      $data = mysqli_fetch_all(mysqli_query($conn, "SELECT * FROM Pokemons " . $_SESSION['update_data']), MYSQLI_ASSOC);
     }
-
-    $data = mysqli_fetch_all(mysqli_query($conn, "SELECT * FROM Pokemons " . $_SESSION['update_data']), MYSQLI_ASSOC);
   }
 
   ?>

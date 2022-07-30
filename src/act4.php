@@ -1,4 +1,5 @@
 <?php session_start(); ?>
+<?php include './database.php'; ?>
 
 <!DOCTYPE HTML>
 <html class='h-auto w-full bg-white'>
@@ -15,7 +16,6 @@
 </head>
 
 <body class='w-full h-auto m-0 p-0 text-base border-none'>
-  <?php include './database.php'; ?>
   <div class='w-full h-screen h-screen flex lg:flex-row flex-col items-center justify-around bg-white'>
     <?php include './masthead.php'; ?>
   </div>
